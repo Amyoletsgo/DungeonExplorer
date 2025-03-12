@@ -10,10 +10,10 @@ namespace DungeonExplorer
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
-            game.Start();
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            Game game = new Game(); //calls an object of the game class (where the main program is)
+            game.Start(); //starts the game using start method
+            Console.WriteLine("Press any key to exit..."); 
+            Console.ReadKey(); // reads key before it closes the program
         }
     }
 }
