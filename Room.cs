@@ -28,7 +28,7 @@ namespace DungeonExplorer
 
         public string RoomName
         {
-            //gets and sets the name of the room 
+            //gets and sets the name of the room  
             get { return roomName; }
             set { roomName = value; }
         }

@@ -103,7 +103,7 @@ namespace DungeonExplorer
             }
         }
 
-        // turns the list of inventory into a string
+        // turns the list of inventory into a string 
         public string InventoryContents()
         {
             return string.Join(", ", Inventory);

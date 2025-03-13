@@ -28,7 +28,7 @@ namespace DungeonExplorer
             bool playing = true;
             while (playing)
             {
-                //gets the player to input a username
+                //gets the player to input a username 
                 player.setPlayerName();
                 //writes the description for the current room
                 currentRoom.WriteDescription();
